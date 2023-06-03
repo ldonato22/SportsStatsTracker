@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leonardodonato/Library/Mobile Documents/com~apple~CloudDocs/Documents/Herramientas/BHDLeon-Consultec/Curso/SportsStatsTracker/SportsStatsTracker.csproj": {}
+  },
+  "projects": {
+    "/Users/leonardodonato/Library/Mobile Documents/com~apple~CloudDocs/Documents/Herramientas/BHDLeon-Consultec/Curso/SportsStatsTracker/SportsStatsTracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardodonato/Library/Mobile Documents/com~apple~CloudDocs/Documents/Herramientas/BHDLeon-Consultec/Curso/SportsStatsTracker/SportsStatsTracker.csproj",
+        "projectName": "SportsStatsTracker",
+        "projectPath": "/Users/leonardodonato/Library/Mobile Documents/com~apple~CloudDocs/Documents/Herramientas/BHDLeon-Consultec/Curso/SportsStatsTracker/SportsStatsTracker.csproj",
+        "packagesPath": "/Users/leonardodonato/.nuget/packages/",
+        "outputPath": "/Users/leonardodonato/Library/Mobile Documents/com~apple~CloudDocs/Documents/Herramientas/BHDLeon-Consultec/Curso/SportsStatsTracker/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardodonato/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bhdleon/_packaging/bhdleon-nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
